@@ -21,7 +21,7 @@ Insights for Medical Literature
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
-    [API reference](https://test.cloud.ibm.com/apidocs/wh-iml)
+    [API reference](https://cloud.ibm.com/apidocs/wh-iml)
     sdks.md
     information-security.md
     at_events.md
