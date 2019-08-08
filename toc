@@ -1,0 +1,38 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="wh-iml" audience="service" href="/docs/services/wh-iml?topic=getting-started.html" path="services/wh-iml"}
+Insights for Medical Literature
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about.md
+    developer-overview.md
+
+    {: .topicgroup}
+    Demos
+        [Example app demo](https://medical-insights-genes-ui.mybluemix.net/)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    advanced-invocations.md
+    returns-options.md
+    manage-roles.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API reference](https://test.cloud.ibm.com/apidocs/wh-iml)
+    sdks.md
+    information-security.md
+    at_events.md
+    dr.md
+    licenses.md
+    sample-apps.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    release-notes.md
+    troubleshooting.md
+    [Slack channel](https://ibm-watsonhealth.slack.com/messages/C0L479C2D)
+    [IML Forum](https://w3-connections.ibm.com/forums/html/forum?id=42214eeb-ca98-4a01-a376-708cc75b4297&ps=25)
+    {: .navgroup-end}
