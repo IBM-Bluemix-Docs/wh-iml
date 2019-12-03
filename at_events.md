@@ -21,7 +21,7 @@ subcollection: wh-iml
 # {{site.data.keyword.wh-iml_short}} events
 {: #at_events}
 
-Use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and applications interact with the _YourServiceName_ service in {{site.data.keyword.Bluemix}}.
+Use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users and applications interact with the {{site.data.keyword.wh-iml_short}} service in {{site.data.keyword.Bluemix}}.
 {: shortdesc}
 
 ## List of events
