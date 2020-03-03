@@ -24,7 +24,7 @@ Insights for Medical Literature
     [API reference](https://cloud.ibm.com/apidocs/wh-iml)
     sdks.md
     information-security.md
-    Responsibilities.md
+    responsibilities.md
     at_events.md
     dr.md
     licenses.md
