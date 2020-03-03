@@ -29,7 +29,7 @@ You and IBM have unique responsibilities for the setup and maintenance of IBM Cl
 | Use the provided API, CLI, or UI console to provision service instances. | Customer |
 | Set up your backup and recovery strategies. | Customer |
 | Monitor then health of your instance(s) using IBBM Cloud monitoring.  | Customer |
-{: caption="Table 1.  Responsibilities for IBM Cloud infrastructure" caption-side="top"|
+{: caption="Table 1.  Responsibilities for IBM Cloud infrastructure" caption-side="top"}
 
 ### Application Orchestration]
 {: #app-orchestration}
