@@ -49,7 +49,10 @@ You and IBM have unique responsibilities for change management.
 
 | Responsibilities | Ownership |
 |------------------|-----------|
-| Provide ||
+| Provide standard plan corpus and service updates| IBM |
+| Provide custom plan service updates | IBM |
+| Provide custom plan corpus updates | Customer |
+| Provide application updates | Customer |
 {: caption="Table 3. Responsibilities for change management" caption-side="top"}
 
 ## Security and regulation compliance
