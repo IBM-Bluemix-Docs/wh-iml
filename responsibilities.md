@@ -21,14 +21,14 @@ Review the following sections for the specific responsibilities for you and for 
 ### IBM Cloud infrastructure
 {: #mgmt-infrastructure}
 
-You and IBM have unique responsibilities for the setup and maintenance of IBM Cl
+You and IBM have unique responsibilities for the setup and maintenance of IBM Cloud.
 
 | Responsibilities | Ownership |
 |------------------|-----------|
-| Deploy a fully managed, highly-available, secured, IBBM-owned infrastructure. | IBM |
+| Deploy a fully managed, highly-available, secured, IBM-owned infrastructure. | IBM |
 | Use the provided API, CLI, or UI console to provision service instances. | Customer |
 | Set up your backup and recovery strategies. | Customer |
-| Monitor then health of your instance(s) using IBBM Cloud monitoring.  | Customer |
+| Monitor then health of your instance(s) using IBM Cloud monitoring.  | Customer |
 {: caption="Table 1.  Responsibilities for IBM Cloud infrastructure" caption-side="top"}
 
 ### Application Orchestration
