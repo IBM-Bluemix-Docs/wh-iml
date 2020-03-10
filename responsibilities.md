@@ -31,7 +31,7 @@ You and IBM have unique responsibilities for the setup and maintenance of IBM Cl
 | Monitor then health of your instance(s) using IBBM Cloud monitoring.  | Customer |
 {: caption="Table 1.  Responsibilities for IBM Cloud infrastructure" caption-side="top"}
 
-### Application Orchestration]
+### Application Orchestration
 {: #app-orchestration}
 
 Application orchestration is your responsibility and not the responsibility of IBM.
