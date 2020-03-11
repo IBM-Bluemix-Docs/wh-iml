@@ -28,9 +28,12 @@ The default corpora also have been tagged with Medical Subject Headings [MeSH](h
 
 A set of medical based attributes are also defined and applied when the corpus and updates are analyzed.  Attributes are a collection of artifacts from other ontologies or domain expert provided unique concepts that are combined into a single artifact for ease of use during corpus exploration and domain expert controlled coverage.
 
-## Logical isolation
+## Data isolation
 {: #isolation}
-Dedicated instances using the custom plan can be configured to use private endpoints for connectivity isolating it from other users and services in the IBM Cloud.  The dedicated instance will need to connect an instance of IBM Cloud Database for Elastic managed by the account owner.  The communication between the service and database is encrypted and can also exclusively use private endpoints.  The connection information for the database likewise can be stored / accessed in IBM Cloud Objectstore using private endpoints.  The connection information is stored and accessed using the unique instance id of the positioned service.
+
+Public multi-tenant instances do not have any user supplied configuration of contributed data.
+
+Dedicated instances store user configuration data in Cloud Object Store isolated by tenant at the service layer.  Contributed data is stored in a tenant provisioned instance of Cloud Database for Elastic.
 
 ##HIPAA
 {: #hippa}
