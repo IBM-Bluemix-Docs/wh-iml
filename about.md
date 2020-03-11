@@ -28,6 +28,10 @@ The default corpora also have been tagged with Medical Subject Headings [MeSH](h
 
 A set of medical based attributes are also defined and applied when the corpus and updates are analyzed.  Attributes are a collection of artifacts from other ontologies or domain expert provided unique concepts that are combined into a single artifact for ease of use during corpus exploration and domain expert controlled coverage.
 
+## Logical isolation
+{: #isolation}
+Dedicated instances using the custom plan can be configured to use private endpoints for connectivity isolating it from other users and services in the IBM Cloud.  The dedicated instance will need to connect an instance of IBM Cloud Database for Elastic managed by the account owner.  The communication between the service and database is encrypted and can also exclusively use private endpoints.  The connection information for the database likewise can be stored / accessed in IBM Cloud Objectstore using private endpoints.  The connection information is stored and accessed using the unique instance id of the positioned service.
+
 ##HIPAA
 {: #hippa}
 US Health Insurance Portability and Accountability Act (HIPAA) support does not apply to the Insights for Medical Literature service.  The service is stateless and does not store any user data on {{site.data.keyword.cloud}}.
