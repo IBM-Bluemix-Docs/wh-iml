@@ -33,6 +33,12 @@ When the repository connection is provided for a provisioned custom plan the ser
 | Action | Description |
 |:-----------------|:-----------------|
 | wh-iml.corpora.configure | Configure the custom plan repository. |
+| wh-iml.corpora.disable | Disable read event tracking. |
+| wh-iml.corpora.enable | Enable read event tracking. |
+| wh-iml.corpora.monitor | Enable custom plan monitoring. |
+| wh-iml.corpora.read | Repository data was searched. |
+| wh-iml.corpora.delete | Delete a custom corpus from repository. |
+
 
 {: caption="Table 1. Actions that generate events" caption-side="top"}
 
