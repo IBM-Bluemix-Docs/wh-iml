@@ -35,7 +35,7 @@ The first option (A) is to provision an instance of the service standard plan.  
 
 The second option (B) is to provision an instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the clusters.  The service is accessible via a public endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
 
-The third option (C) is to provision a dedicated instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the cluster within the client account space.  The dedicated instance can only be accessed via a private endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
+The third option (C) is to provision a dedicated instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the cluster.  The dedicated instance can only be accessed via a private endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
 
 ![Figure showing deployment options](IML_deployment_options.png "Figure showing IML deployment options")
 {: caption="Figure 1 shows service deployment options and isolation"}
