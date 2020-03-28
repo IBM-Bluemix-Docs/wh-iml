@@ -28,6 +28,18 @@ The default corpora also have been tagged with Medical Subject Headings [MeSH](h
 
 A set of medical based attributes are also defined and applied when the corpus and updates are analyzed.  Attributes are a collection of artifacts from other ontologies or domain expert provided unique concepts that are combined into a single artifact for ease of use during corpus exploration and domain expert controlled coverage.
 
+## Deployment Options
+{{site.data.keyword.wh-iml_short}} has three deployment options that result in different combinations of computing, networking, and storage options as seen in the diagram below.
+
+The first option (A) is to provision an instance of the service standard plan.  Such an instance will result in each tenant instance running in separate containers.  The service is accessible via a public endpoint.  The service will access all dependencies via private endpoints.
+
+The second option (B) is to provision an instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the clusters.  The service is accessible via a public endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
+
+The third option (C) is to provision a dedicated instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the cluster.  The dedicated instance can only be accessed via a private endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
+
+![Figure showing deployment options](IML_deployment_options.png "Figure showing IML deployment options")
+{: caption="Figure 1 shows service deployment options and isolation"}
+
 ## Data isolation
 {: #isolation}
 
