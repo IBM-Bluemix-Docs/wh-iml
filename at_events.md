@@ -28,16 +28,16 @@ Use the {{site.data.keyword.cloudaccesstrailfull}} service to track how users an
 {: #events}
 
 <!-- Make sure you introduce the table with a detailed description that immediately precedes it. For example, see https://cloud.ibm.com/docs/services/cloud-activity-tracker/services?topic=cloud-activity-tracker-cf. -->
-When the repository connection is provided for a provisioned custom plan the service will connect to the remote environment and track the event.
+When the repository connection is provided for a provisioned premium plan the service will connect to the remote environment and track the event.
 
 | Action | Description |
 |:-----------------|:-----------------|
-| wh-iml.corpora.configure | Configure the custom plan repository. |
+| wh-iml.corpora.configure | Configure the premium plan repository. |
 | wh-iml.corpora.disable | Disable read event tracking. |
 | wh-iml.corpora.enable | Enable read event tracking. |
-| wh-iml.corpora.monitor | Enable custom plan monitoring. |
+| wh-iml.corpora.monitor | Enable premium plan monitoring. |
 | wh-iml.corpora.read | Repository data was searched. |
-| wh-iml.corpora.delete | Delete a custom corpus from repository. |
+| wh-iml.corpora.delete | Delete a premium corpus from repository. |
 
 
 {: caption="Table 1. Actions that generate events" caption-side="top"}

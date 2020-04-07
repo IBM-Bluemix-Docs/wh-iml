@@ -44,9 +44,9 @@ The {{site.data.keyword.wh-iml_full}} service provides a [health check API](/api
 {: lite_standard_recovery}
 Disaster recovery for a lite and standard plan can be accomplished by either provisioning an instance of the service in multiple locations or provisioning an instance in a new location if a location becomes unavailable.  The URL and and apikey for the new location need to be provided to the solution accessing the service to complete the recovery from one location to another.
 
-### Custom plan recovery
-{: custom _recovery}
-Disaster recovery of a custom plan requires restoring a backup of any custom corpora in use and restoring it to a new location in addition to provisioning a service instance in a new location.
+### Premium plan recovery
+{: premium_recovery}
+Disaster recovery of a premium plan requires restoring a backup of any custom corpora in use and restoring it to a new location in addition to provisioning a service instance in a new location.
 
 #### Backing up custom corpora
 {: backing_up}
@@ -54,8 +54,8 @@ Custom corpora are stored and backed up in an instance of [IBM Cloud Database fo
 
 #### Recovery
 {: recovery}
-The instance owner must ensure the custom corpora is available in the new location prior to recovering a custom {{site.data.keyword.wh-iml_short}} instance.
+The instance owner must ensure the custom corpora is available in the new location prior to recovering a {{site.data.keyword.wh-iml_short}} premium plan instance.
 
-To recover a custom instance:
-  1.  Provision a custom instance in the new location.
+To recover a premium plan instance:
+  1.  Provision a premium instance in the new location.
   2.  Invoke the configure API to establish connectivity to the custom corpora instance in the new location.

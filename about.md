@@ -22,7 +22,7 @@ The corpus is updated on a regular basis providing solutions with access to rece
 {: #enrichment}
 The corpus is cognitively analyzed using the Unified Medical Language System [UMLS](https://www.nlm.nih.gov/research/umls/) that has been filtered to apply semantic types related to the medical domain and ignore more general types and concepts.  The corpus is fully refreshed annually after the National Institutes of Health releases the latest AA version of UMLS.  The corpus names will not change so general usability of APIs will not be affected but ontology artifacts can and will change or removed when new versions are released.
 
-Solutions that require control over the UMLS version for consistency as concepts can be removed or surface forms (synonyms) changed a custom plan should be provisioned.
+Solutions that require control over the UMLS version for consistency as concepts can be removed or surface forms (synonyms) changed a premium plan should be provisioned.
 
 The default corpora also have been tagged with Medical Subject Headings [MeSH](https://www.nlm.nih.gov/mesh/meshhome.html).  MeSH is also updated annually and will be refreshed and applied to the corpus concurrently with UMLS.
 
@@ -33,9 +33,9 @@ A set of medical based attributes are also defined and applied when the corpus a
 
 The first option (A) is to provision an instance of the service standard plan.  Such an instance will result in each tenant instance running in separate containers.  The service is accessible via a public endpoint.  The service will access all dependencies via private endpoints.
 
-The second option (B) is to provision an instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the clusters.  The service is accessible via a public endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
+The second option (B) is to provision an instance of the service premium plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the clusters.  The service is accessible via a public endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
 
-The third option (C) is to provision a dedicated instance of the service custom plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the cluster.  The dedicated instance can only be accessed via a private endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
+The third option (C) is to provision a dedicated instance of the service premium plan.  Such an instance will result in each tenant instance running on separate clusters and within separate containers for the cluster.  The dedicated instance can only be accessed via a private endpoint.  The service will access all dependencies via private endpoints.  The service connects via private endpoint to a tenant provisioned repository in the client account space.
 
 ![Figure showing deployment options](IML_deployment_options.png "Figure showing IML deployment options")
 {: caption="Figure 1 shows service deployment options and isolation"}
