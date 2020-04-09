@@ -55,6 +55,6 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task | IBM Responsibilities | Your Responsibilities |
 |--------|-------------------------|------------------|
-| Backups | {{site.data.keyword.wh-iml_short}} is responsible for backups of shared instances. | The customer is responsible for data backups of premium plan instances. |
+| Backups | {{site.data.keyword.wh-iml_short}} is responsible for backups of shared instances. | The customer is responsible for data [backups](https://cloud.ibm.com/docs/services/databases-for-elasticsearch?topic=cloud-databases-dashboard-backups) of premium plan instances. |
 | Recovery | {{site.data.keyword.wh-iml_short}} is responsible for restoring the service within a region that experienced an outage. | The customer is responsible for provisioning instances in multiple regions and managing their application(s) connectivity to active instances.  The customer is also responsible for restoring data for premium plan instances. |
 {: caption="Table 5. Responsibilities for disaster recovery" caption-side="top"}
