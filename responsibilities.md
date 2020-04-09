@@ -30,7 +30,7 @@ Review the following sections for the specific responsibilities for you and for 
 | Task | IBM Responsibilities | Your Responsibilities |
 |------------------|-----------|-----------------------------|
 | API Version changes | {{site.data.keyword.wh-iml_short}} is responsible for versioning the service APIs. | The customer is responsible for integrating with the desired version of service APIs. |
-{: caption="Table 3. Responsibilities for change management" caption-side="top"}
+{: caption="Table 2. Responsibilities for change management" caption-side="top"}
 
 ## Identity and Access Management
 {: #iml-iam}
