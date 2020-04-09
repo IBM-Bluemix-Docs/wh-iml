@@ -39,7 +39,7 @@ Review the following sections for the specific responsibilities for you and for 
 |------------------|-----------|-----------------------------|
 | Apikey generation | {{site.data.keyword.wh-iml_short}} is responsible for generating an apikey to access a provisioned instance. | The customer is responsible for managing the security of the apikey. The customer is also responsible for generating and managing additional apikeys for provisioned instances. |
 | Apikey deletion | {{site.data.keyword.wh-iml_short}} is responsible for deleting the provisioned instance apikey when the service is deprovisioned. | The customer is responsible for removing the apikey(s) from applications or access chains. |
-{: caption="Table 3. Responsibilities for change management" caption-side="top"}
+{: caption="Table 3. Responsibilities for identity and access management" caption-side="top"}
 
 ## Security and regulation compliance
 {: #security-regulation}
