@@ -46,7 +46,7 @@ Review the following sections for the specific responsibilities for you and for 
 
 | Task | IBM Responsibilities | Your Responsibilities |
 |------------------|-----------|--------------------------|
-| Emcryption  | {{site.data.keyword.wh-iml_short}} is responsible for encrypting data on disk and in motion. | The customer is responsible for integrating and managing application level encryption and security keys. |
+| Encryption  | {{site.data.keyword.wh-iml_short}} is responsible for encrypting data on disk and in motion. | The customer is responsible for integrating and managing application level encryption and security keys. |
 | Security | {{site.data.keyword.wh-iml_short}} is responsible for ensuring data security on disk and in motion. | The customer is responsible for managing IBM Cloud credentials and keeping them secure.  The customer is also responsible for configuring private endpoints for dedicated instances. |
 {: caption="Table 4. Responsibilities for a security rich environment" caption-side="top"}
 
