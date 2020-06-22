@@ -27,5 +27,5 @@ Error handling needs are minimal as the service only uses data stored in the cor
 
 SDKs are available for the {{site.data.keyword.wh-iml_short}}  service to simply application development.  {{site.data.keyword.ibmwatson}} SDKs are available for many popular programming languages and platforms.
 
-For a complete lis of SDKs and GitHub links see 
+For a complete list of SDKs and GitHub links see [SDKs](/docs/services/wh-iml?topic=wh-iml-sdks).
 For detailed information about all {{site.data.keyword.wh-iml_short}}  server methods see the API reference.

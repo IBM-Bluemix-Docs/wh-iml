@@ -21,7 +21,7 @@ When entering a command replace '[apikey]', '{url}', and '{corpus}' with your ac
 
 ##Searching across multiple corpora
 {: #searching-multiple-corpora}
-To search from articles across multiple corpora in your instance simply list the corpora delisted by a comma.
+To search from articles across multiple corpora in your instance simply list the corpora delimited by a comma.
 ```
 curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --header "Accept: application/json" -d "{
 	"query": {
@@ -77,7 +77,7 @@ curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --he
 
 ##Filtering search results
 {: #filtering-search-results}
-Search results can be filtered using fields that are known to exist in the default corpora or if using a custom plan fields specific to custom instance.  There are three fields common across the default corpora that can be used to filter search results:
+Search results can be filtered using fields that are known to exist in the default corpora or if using a premium plan, fields specific to the premium instance.  There are three fields common across the default corpora that can be used to filter search results:
 - publication name
 - publication date
 - author

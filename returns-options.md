@@ -79,7 +79,7 @@ curl -X POST -u "apikey:{apikey}" \
 
 ##Returning attributes
 {: #attributes}
-Attributes are an unique cognitive artifact that is included as part of the default corpus enrichment.  Attributes combine semantic types, semantic concepts, and user defined ontologies and artifacts into a single searchable entity.  To retrieve a list of attributes that were found in the corpus and their frequency occurrance specify an annotations block in the returns block of the search API.
+Attributes are an unique cognitive artifact that is included as part of the default corpus enrichment.  Attributes combine semantic types, semantic concepts, and user defined ontologies and artifacts into a single searchable entity.  To retrieve a list of attributes that were found in the corpus and their frequency occurrence specify an attributes block in the returns block of the search API.
 ```
 curl -X POST -u "apikey:{apikey}" \
 --header "Content-Type: application/json" \
