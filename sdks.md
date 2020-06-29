@@ -17,6 +17,10 @@ SDKs simplify application development by abstracting much of the complexity.  SD
 {: #supported-sdks}
 The following SDKs are available for {{site.data.keyword.wh-iml_short}}:
 
-[Java SDK](https://github.ibm.com/watson-health-cognitive-services/whcs-java-sdk)
+[Java SDK](https://github.com/IBM/whcs-java-sdk)
 
-[Python SDK](https://github.ibm.com/watson-health-cognitive-services/whcs-python-sdk)
+[Python SDK](https://github.com/IBM/whcs-python-sdk)
+
+[Go SDK](https://github.com/IBM/whcs-go-sdk)
+
+[Node SDK](https://github.com/IBM/whcs-node-sdk)
