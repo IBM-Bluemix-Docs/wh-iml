@@ -22,7 +22,7 @@ The corpus is updated on a regular basis providing solutions with access to rece
 {: #enrichment}
 The corpus is cognitively analyzed using the Unified Medical Language System [UMLS](https://www.nlm.nih.gov/research/umls/) that has been filtered to apply semantic types related to the medical domain and ignore more general types and concepts.  The corpus is fully refreshed annually after the National Institutes of Health releases the latest AA version of UMLS.  The corpus names will not change so general usability of APIs will not be affected but ontology artifacts can and will change or removed when new versions are released.
 
-A  premium plan should be provisioned for solutions that require control over the UMLS version for consistency as concepts can be removed or surface forms (synonyms) changed.
+A premium plan should be provisioned for solutions that require control over the UMLS version for consistency as concepts can be removed or surface forms (synonyms) changed.
 
 The default corpora also have been tagged with Medical Subject Headings [MeSH](https://www.nlm.nih.gov/mesh/meshhome.html).  MeSH is also updated annually and will be refreshed and applied to the corpus concurrently with UMLS.
 
