@@ -50,5 +50,5 @@ You can use service access roles to enable users to perform service actions in t
 | POST /v1/corpora                      | Create repository schema                    |
 | PUT /v1/corpora/monitor               | Enable / disable instance monitoring        |
 | PUT /v1/corpora/tracking              | Enable / disable read event activity tracking |
-| POST /v1/corpora/{corpus}/documents.  | Add a document to a repository schema |
-| DELETE /v1/corpota                        | Delete repository schema                  |
+| POST /v1/corpora/{corpus}/documents  | Add a document to a repository schema |
+| DELETE /v1/corpora                        | Delete repository schema                  |
