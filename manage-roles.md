@@ -40,4 +40,15 @@ You can use service access roles to enable users to perform service actions in t
 | POST /wh-iml                          | Manager, Writer                      |
 | DELETE /wh-iml                        | Manager                              |
 
+## APIs requiring manager role
+{: #manager-role-apis}
+{{site.data.keyword.wh-iml_short}} provides a set of APIs that allow a manager to maintain a premium instance.  These APIs can only be run against a premium instance by a user with a manager role.
 
+| APIs                                | Function |
+|---------------------------------------|-------------------------------------|
+| POST /v1/corpora/configure            | Define repository connection              |
+| POST /v1/corpora                      | Create repository schema                    |
+| PUT /v1/corpora/monitor               | Enable / disable instance monitoring        |
+| PUT /v1/corpora/tracking              | Enable / disable read event activity tracking |
+| POST /v1/corpora/{corpus}/documents.  | Add a document to a repository schema |
+| DELETE /v1/corpota                        | Delete repository schema                  |
